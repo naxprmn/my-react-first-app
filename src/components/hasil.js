@@ -1,24 +1,23 @@
 import React from 'react';
+import HasilRow from './hasil-row';
 
-function Hasil() {
+function Hasil({ data }) {
+
     return (
         <>
             <table>
                 <thead>
                     <tr>
                         <th>Firstname</th>
-                        <th>Lastname</th>
+                        <th>NIK</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>Peter</td>
-                        <td>Griffin</td>
-                    </tr>
-                    <tr>
-                        <td>Lois</td>
-                        <td>Griffin</td>
-                    </tr>
+                    {
+                        data.map((value) => {
+                            return <tr key={value.nik}>{<HasilRow nama={value.NAMA} nik={value.nik}/>}</tr>
+                        })
+                    }
                 </tbody>
             </table>
         </>

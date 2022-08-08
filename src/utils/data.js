@@ -1,46 +1,15 @@
 const getInitialData = () => ([
-  {
-    id: 1,
-    title: "Babel",
-    body: "Babel merupakan tools open-source yang digunakan untuk mengubah sintaks ECMAScript 2015+ menjadi sintaks yang didukung oleh JavaScript engine versi lama. Babel sering dipakai ketika kita menggunakan sintaks terbaru termasuk sintaks JSX.",
-    createdAt: '2022-04-14T04:27:34.572Z',
-    archived: false,
-  },
-  {
-    id: 2,
-    title: "Functional Component",
-    body: "Functional component merupakan React component yang dibuat menggunakan fungsi JavaScript. Agar fungsi JavaScript dapat disebut component ia harus mengembalikan React element dan dipanggil layaknya React component.",
-    createdAt: '2022-04-14T04:27:34.572Z',
-    archived: false,
-  },
-  {
-    id: 3,
-    title: "Modularization",
-    body: "Dalam konteks pemrograman JavaScript, modularization merupakan teknik dalam memecah atau menggunakan kode dalam berkas JavaScript secara terpisah berdasarkan tanggung jawabnya masing-masing.",
-    createdAt: '2022-04-14T04:27:34.572Z',
-    archived: false,
-  },
-  {
-    id: 4,
-    title: "Lifecycle",
-    body: "Dalam konteks React component, lifecycle merupakan kumpulan method yang menjadi siklus hidup mulai dari component dibuat (constructor), dicetak (render), pasca-cetak (componentDidMount), dan sebagainya. ",
-    createdAt: '2022-04-14T04:27:34.572Z',
-    archived: false,
-  },
-  {
-    id: 5,
-    title: "ESM",
-    body: "ESM (ECMAScript Module) merupakan format modularisasi standar JavaScript.",
-    createdAt: '2022-04-14T04:27:34.572Z',
-    archived: false,
-  },
-  {
-    id: 6,
-    title: "Module Bundler",
-    body: "Dalam konteks pemrograman JavaScript, module bundler merupakan tools yang digunakan untuk menggabungkan seluruh modul JavaScript yang digunakan oleh aplikasi menjadi satu berkas.",
-    createdAt: '2022-04-14T04:27:34.572Z',
-    archived: false,
-  },
+  { "id_dtks": "721FA01B-2BAB-4B0F-BC4A-DF9D91A9605C", "nmkec": "MAGELANG SELATAN", "nmdesa": "JURANGOMBO SELATAN", "alamat": "JL SUNAN BONANG NO 29", "rt": "1", "rw": "6", "nokk": "3205391908210005", "nik": "3371015101960004", "NAMA": "RANATASYA NABILA TURAWAN", "Tgllahir": "1996-01-11", "TmpLahir": "MAGELANG", "Jnskel": "Perempuan", "PEKERJAAN": "KARYAWAN SWASTA", "Hubungan_keluarga": "ISTRI", "BANSOS BPNT": "", "BANSOS PKH": "", "BANSOS BPNT-PPKM": "", "PBI JKN": "" },
+  { "id_dtks": "1A23A7EA-42FC-4270-BA55-9FA73426F577", "nmkec": "MAGELANG SELATAN", "nmdesa": "JURANGOMBO SELATAN", "alamat": "LINGK. SI IPIK", "rt": "5", "rw": "3", "nokk": "3209152102061898", "nik": "3209150103810007", "NAMA": "KUKUM KUMAEDI", "Tgllahir": "1981-03-01", "TmpLahir": "SUMEDANG", "Jnskel": "Laki-laki", "PEKERJAAN": "KARYAWAN SWASTA", "Hubungan_keluarga": "ANAK", "BANSOS BPNT": "", "BANSOS PKH": "", "BANSOS BPNT-PPKM": "YA", "PBI JKN": "" },
+  { "id_dtks": "C0078D79-2A61-4445-95F5-31F63BA084D8", "nmkec": "MAGELANG SELATAN", "nmdesa": "JURANGOMBO SELATAN", "alamat": "PERUMAHAN GREEN JAVA NO.28", "rt": "6", "rw": "6", "nokk": "3212081411160007", "nik": "3209245707890003", "NAMA": "SARIPAH", "Tgllahir": "1989-07-17", "TmpLahir": "CIREBON", "Jnskel": "Perempuan", "PEKERJAAN": "KARYAWAN SWASTA", "Hubungan_keluarga": "ISTRI", "BANSOS BPNT": "", "BANSOS PKH": "", "BANSOS BPNT-PPKM": "", "PBI JKN": "" },
+  { "id_dtks": "7E7BB776-E6A2-45C3-99B3-65ED94A4CC36", "nmkec": "MAGELANG SELATAN", "nmdesa": "JURANGOMBO SELATAN", "alamat": "PULEPANDAK", "rt": "4", "rw": "8", "nokk": "3307151910170001", "nik": "3371012810810007", "NAMA": "NUR MIFTACHUL HUDA", "Tgllahir": "1981-10-28", "TmpLahir": "MAGELANG", "Jnskel": "Laki-laki", "PEKERJAAN": "BURUH HARIAN LEPAS", "Hubungan_keluarga": "KEPALA KELUARGA", "BANSOS BPNT": "", "BANSOS PKH": "", "BANSOS BPNT-PPKM": "", "PBI JKN": "YA" },
+  { "id_dtks": "3D2E115F-E84D-47F5-87D4-44C969CB718A", "nmkec": "MAGELANG SELATAN", "nmdesa": "JURANGOMBO SELATAN", "alamat": "DSN JLIGUDAN", "rt": "1", "rw": "2", "nokk": "3308020508210007", "nik": "3371016205000002", "NAMA": "KHUSNA NUR RAHMAWATI", "Tgllahir": "2000-05-22", "TmpLahir": "KOTA MAGELANG", "Jnskel": "Perempuan", "PEKERJAAN": "KARYAWAN SWASTA", "Hubungan_keluarga": "ISTRI", "BANSOS BPNT": "", "BANSOS PKH": "", "BANSOS BPNT-PPKM": "", "PBI JKN": "YA" },
+  { "id_dtks": "EC294A10-7890-4F59-A8B0-E9E0E069852F", "nmkec": "MAGELANG SELATAN", "nmdesa": "JURANGOMBO SELATAN", "alamat": "DSN SIDOMULYO", "rt": "2", "rw": "8", "nokk": "3308042406200005", "nik": "3371016804000001", "NAMA": "ACHIKA DEWI SUSANTI", "Tgllahir": "2000-04-28", "TmpLahir": "MAGELANG", "Jnskel": "Perempuan", "PEKERJAAN": "MENGURUS RUMAH TANGGA", "Hubungan_keluarga": "ISTRI", "BANSOS BPNT": "", "BANSOS PKH": "", "BANSOS BPNT-PPKM": "", "PBI JKN": "" },
+  { "id_dtks": "419D42D6-596B-4B09-862F-28C76D3EEE29", "nmkec": "MAGELANG SELATAN", "nmdesa": "JURANGOMBO SELATAN", "alamat": "DSN JAPUNAN", "rt": "1", "rw": "3", "nokk": "3308100110200011", "nik": "3371016402940002", "NAMA": "STEFFANI", "Tgllahir": "1994-02-24", "TmpLahir": "MAGELANG", "Jnskel": "Perempuan", "PEKERJAAN": "WIRASWASTA", "Hubungan_keluarga": "ISTRI", "BANSOS BPNT": "", "BANSOS PKH": "", "BANSOS BPNT-PPKM": "", "PBI JKN": "" },
+  { "id_dtks": "18001E44-8ADA-4E2B-87F9-070A2F120834", "nmkec": "MAGELANG SELATAN", "nmdesa": "JURANGOMBO SELATAN", "alamat": "DSN JAPUNAN", "rt": "2", "rw": "3", "nokk": "3308100410210002", "nik": "3371015412950001", "NAMA": "DESY DWI HARYANI", "Tgllahir": "1995-12-14", "TmpLahir": "MAGELANG", "Jnskel": "Perempuan", "PEKERJAAN": "KARYAWAN SWASTA", "Hubungan_keluarga": "ISTRI", "BANSOS BPNT": "", "BANSOS PKH": "", "BANSOS BPNT-PPKM": "", "PBI JKN": "" },
+  { "id_dtks": "8F9D5D06-46D4-4D88-9AB2-9EBCB8301D40", "nmkec": "MAGELANG SELATAN", "nmdesa": "JURANGOMBO SELATAN", "alamat": "JL. SALAK 04 / 91", "rt": "4", "rw": "1", "nokk": "3308100910200005", "nik": "3371015007940001", "NAMA": "NUR AZIZAH", "Tgllahir": "1994-07-10", "TmpLahir": "MAGELANG", "Jnskel": "Perempuan", "PEKERJAAN": "KARYAWAN SWASTA", "Hubungan_keluarga": "ISTRI", "BANSOS BPNT": "", "BANSOS PKH": "", "BANSOS BPNT-PPKM": "", "PBI JKN": "" },
+  { "id_dtks": "4E135966-9F40-4A3E-82B0-C52F8C174E88", "nmkec": "MAGELANG SELATAN", "nmdesa": "JURANGOMBO SELATAN", "alamat": "DSN CAWANG", "rt": "4", "rw": "5", "nokk": "3308101907160001", "nik": "3308121405900003", "NAMA": "MUHISOM", "Tgllahir": "1990-05-14", "TmpLahir": "MAGELANG", "Jnskel": "Laki-laki", "PEKERJAAN": "KARYAWAN SWASTA", "Hubungan_keluarga": "KEPALA KELUARGA", "BANSOS BPNT": "", "BANSOS PKH": "", "BANSOS BPNT-PPKM": "", "PBI JKN": "" },
+  { "id_dtks": "52F9CF7A-701F-47C2-9585-8BC951A830D3", "nmkec": "MAGELANG SELATAN", "nmdesa": "JURANGOMBO SELATAN", "alamat": "KARET BULUREJO", "rt": "3", "rw": "4", "nokk": "3308102112210005", "nik": "3301126010710007", "NAMA": "NANI HARYANI", "Tgllahir": "1971-10-20", "TmpLahir": "CILACAP", "Jnskel": "Perempuan", "PEKERJAAN": "WIRASWASTA", "Hubungan_keluarga": "ISTRI", "BANSOS BPNT": "", "BANSOS PKH": "YA", "BANSOS BPNT-PPKM": "", "PBI JKN": "YA" },
 ]);
 
 const showFormattedDate = (date) => {
